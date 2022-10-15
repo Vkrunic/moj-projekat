@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Moj prvi projekat
-        </title>
-    </head>
-<body>
-    <div>
-        <h1>
-            Header
-        </h1>
+  <head>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .header {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .hero-text {
+        margin-left: 10%;
+      }
+      .anti-hero-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    </style>
+    <title>Moj prvi projekat</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Header</h1>
+      <div>Opis headera</div>
+      <div>
+        <a href="#nike"> <span> HOME </span></a>
+        <span> CONTACT </span>
+        <span> ABOUT US </span>
+      </div>
     </div>
-</body>
+    <div>
+      <p class="hero-text">Lorem ipsum <span>koko</span></p>
+
+      <div class="anti-hero-text">
+        <img
+          alt="sike"
+          height="500px"
+          width="500px"
+          src="https://64.media.tumblr.com/66f480a585593da9855c23556f42198c/tumblr_ovja0m5Unk1uhq7dro1_500.jpg"
+        />
+
+        <p id="nike">Nike</p>
+      </div>
+    </div>
+  </body>
 </html>
